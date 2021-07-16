@@ -27,7 +27,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "counter",
+            "prefix": "shop",
             "style": "kebab-case"
           }
         ]

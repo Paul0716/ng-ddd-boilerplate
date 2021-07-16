@@ -33,6 +33,21 @@
     "counter-e2e": {
       "tags": [],
       "implicitDependencies": ["counter"]
+    },
+    "domain": {
+      "tags": []
+    },
+    "order": {
+      "tags": []
+    },
+    "shared-state": {
+      "tags": []
+    },
+    "shop": {
+      "tags": []
+    },
+    "ui": {
+      "tags": []
     }
   }
 }
