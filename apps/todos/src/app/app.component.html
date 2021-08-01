@@ -1,0 +1,21 @@
+<div class="todo-mvc">
+  <h3 class="title">todos</h3>
+
+  <form class="todo-form" [formGroup]="todosFormGroup">
+    <input
+      type="text"
+      class="new-todo"
+      formControlName="todo"
+      (keyup.enter)="add()"
+    />
+
+    <ul class="todos">
+      <li *ngFor="let todo of todos$ | async; let i = index">
+        {{ todo }}
+        <div class="delete" (click)="remove(i)">
+          <i nz-icon nzType="delete" nzTheme="outline"></i>
+        </div>
+      </li>
+    </ul>
+  </form>
+</div>

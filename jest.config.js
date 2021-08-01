@@ -5,5 +5,6 @@ module.exports = {
     '<rootDir>/libs/ui',
     '<rootDir>/apps/shop',
     '<rootDir>/libs/domain',
+    '<rootDir>/apps/todos',
   ],
 };
