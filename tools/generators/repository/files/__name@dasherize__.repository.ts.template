@@ -1,0 +1,7 @@
+import { Injectable } from '@angular/core';
+import { APIClient } from '@rct/http';
+
+@Injectable()
+export class <%= classify(name) %>Repository {
+  constructor(private apiClient: APIClient) { }
+}

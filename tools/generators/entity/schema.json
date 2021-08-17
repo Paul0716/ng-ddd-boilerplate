@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "entity",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of entity",
+      "x-prompt": "What is your name?",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      }
+    },
+    "path": {
+      "type": "string",
+      "description": "path relative to project source root."
+    },
+    "project": {
+      "type": "string",
+      "description": "the target project to use this schematic."
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
